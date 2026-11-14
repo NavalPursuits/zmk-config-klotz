@@ -126,6 +126,7 @@
 &trans     &trans     &trans    &trans    &trans  &kp LS(UNDER)  &kp N1  &kp N2  &kp N3  &kp N0
                                 &trans    &trans  &trans         &trans
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         fkeys_layer {
@@ -136,8 +137,25 @@
 &kp F11  &kp F12  &kp F13  &kp F14  &bt BT_CLR   &none   &none     &none     &none      &none      
                            &none    &none        &none   &none     
             >;
-
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
+        game1 {
+            bindings = <
+          &kp TAB    &kp Q  &kp W    &kp E      &kp R           &kp T       &kp Y    &kp U   &kp I      &kp O
+          &kp LSHFT  &kp A  &kp S    &kp D      &kp F           &kp G       &kp H    &kp J   &kp K      &kp L
+          &kp LCTRL  &kp Z  &kp X    &kp C      &kp V           &kp B       &kp N    &kp M   &kp COMMA  &kp DOT
+                            &kp ESC  &kp SPACE  &slm 6 6        &kp ENTER  &kp BSPC  
+            >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+        };
+
+        game2 {
+            bindings = <
+          &kp M   &kp I   &kp T   &kp G   &kp B      &none  &none  &none  &none  &to 0
+          &kp N1  &kp N2  &kp N3  &kp N4  &kp N5     &none  &none  &none  &none  &none
+          &kp N6  &kp N7  &kp N8  &kp N9  &kp N0     &none  &none  &none  &none  &none  
+                                  &kp J   &none      &none  &none  
+            >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
     };
 };
