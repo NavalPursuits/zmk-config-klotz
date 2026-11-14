@@ -132,8 +132,8 @@
             label = "FKEY";
             bindings = <
 &kp F1   &kp F2   &kp F3   &kp F4   &bt BT_NXT   &none   &none     &bootloader    &sys_reset &out OUT_TOG
-&kp F6   &kp F7   &kp F8   &kp F9   &bt BT_PRV        &none   &kp RGUI  &kp RALT  &kp RCTRL  &kp RSHFT
-&kp F11  &kp F12  &kp F13  &kp F14  &bt CLR        &none   &none     &none     &none      &none      
+&kp F6   &kp F7   &kp F8   &kp F9   &bt BT_PRV   &none   &kp RGUI  &kp RALT  &kp RCTRL  &kp RSHFT
+&kp F11  &kp F12  &kp F13  &kp F14  &bt BT_CLR   &none   &none     &none     &none      &none      
                            &none    &none        &none   &none     
             >;
 
