@@ -97,9 +97,9 @@
         NAV {
             label = "NAVI";
             bindings = <
-&none      &none      &none         &none     &none   &none      &kp CAPS        &kp INSERT      &msc SCRL_UP  &to 5
-&kp LSHFT  &kp LCTRL  &kp LEFT_ALT  &kp LGUI  &none   &kp PG_UP  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT     &kp RIGHT
-&none      &none      &none         &none     &none   &kp PG_DN  &caps_word      &kp PSCRN       &msc SCRL_UP  &none
+&none      &none      &none         &none     &none   &none      &kp CAPS    &kp INSERT        &msc SCRL_UP  &to 5
+&kp LSHFT  &kp LCTRL  &kp LEFT_ALT  &kp LGUI  &none   &kp PG_UP  &kp LEFT    &kp DOWN  &kp UP  &kp RIGHT
+&none      &none      &none         &none     &none   &kp PG_DN  &caps_word  &kp PSCRN         &msc SCRL_UP  &none
                                     &trans    &trans  &kp ESC    &kp F2
             >;
 
