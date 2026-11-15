@@ -112,7 +112,7 @@
 &kp DQT    &kp BSLH  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE2  &none  &kp CARET   &none       &none      &none
 &kp COLON  &kp SEMI  &kp AT                &kp SQT                &kp EXCL   &none  &kp LS(N3)  &kp DOLLAR  &kp GRAVE  &kp LS(NUHS)
 &kp LBKT   &kp RBKT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPS   &none  &kp TILDE   &none       &none      &none
-                                           &kp HASH               &kp STAR   &none  &none
+                                           &kp NUBS               &kp STAR   &none  &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
