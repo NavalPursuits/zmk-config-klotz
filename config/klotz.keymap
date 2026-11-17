@@ -9,7 +9,7 @@
 #define SYM   2
 #define NUM   3
 #define FKEY  4
-#define GAME1  5
+#define GAME1 5
 #define GAME2 6
 
 &mt {
@@ -85,10 +85,10 @@
         BASE {
             label = "BASE";
             bindings = <
-&kp Q        &kp W        &kp F       &kp P        &kp B      &kp J      &kp L       &kp U       &kp Y        &kp TAB
+&kp Q        &kp W        &kp F       &kp P        &kp B      &kp J      &kp L       &kp U       &kp Y        &kp RET
 &mt LSHFT A  &mt LCTRL R  &mt LALT S  &mt LGUI T   &kp G      &kp M      &mt RGUI N  &mt RALT E  &mt RCTRL I  &mt LSHFT O
 &kp Z        &kp X        &kp C       &kp D        &kp V      &kp K      &kp H       &kp COMMA   &kp DOT      &kp FSLH
-                                      &lt 3 SPACE  &lt 1 DEL  &lt 4 RET  &lt 2 BSPC
+                                      &lt 3 SPACE  &lt 1 DEL  &lt 4 TAB  &lt 2 BSPC
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
